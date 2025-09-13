@@ -1,0 +1,72 @@
+[
+  {
+    "customer": "Ramesh Sharma",
+    "route": "Morning",
+    "product": "Cow Milk",
+    "quantity": 1.5,
+    "status": "delivered"
+  },
+  {
+    "customer": "Sunita Patel",
+    "route": "Morning",
+    "product": "Buffalo Milk",
+    "quantity": 1,
+    "status": "delivered"
+  },
+  {
+    "customer": "Ramesh Sharma",
+    "route": "Night",
+    "product": "Cow Milk",
+    "quantity": 1,
+    "status": "delivered"
+  },
+  {
+    "customer": "Mahesh Joshi",
+    "route": "Morning",
+    "product": "Curd",
+    "quantity": 0.5,
+    "status": "delivered"
+  },
+  {
+    "customer": "Sunita Patel",
+    "route": "Morning",
+    "product": "Cow Milk",
+    "quantity": 1,
+    "status": "missed"
+  },
+  {
+    "customer": "Ramesh Sharma",
+    "route": "Morning",
+    "product": "Cow Milk",
+    "quantity": 1.5,
+    "status": "delivered"
+  },
+  {
+    "customer": "Mahesh Joshi",
+    "route": "Night",
+    "product": "Buffalo Milk",
+    "quantity": 0.75,
+    "status": "delivered"
+  },
+  {
+    "customer": "Seema Verma",
+    "route": "Morning",
+    "product": "Cow Milk",
+    "quantity": 2,
+    "status": "delivered"
+  },
+  {
+    "customer": "Ramesh Sharma",
+    "route": "Morning",
+    "product": "Cow Milk",
+    "quantity": 1,
+    "status": "delivered"
+  },
+  {
+    "customer": "Sunita Patel",
+    "route": "Night",
+    "product": "Curd",
+    "quantity": 0.5,
+    "status": "delivered"
+  }
+]
