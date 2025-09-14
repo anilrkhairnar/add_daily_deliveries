@@ -6,7 +6,7 @@ const APPWRITE_API_KEY = process.env.APPWRITE_API_KEY;
 const APPWRITE_DATABASE_ID = process.env.APPWRITE_DATABASE_ID;
 const APPWRITE_TABLE = process.env.APPWRITE_TABLE;
 export default async ({ req, res }) => {
-  if (req.method === "GET") {
+  if (req.method == "GET") {
     const client = new Client();
     const tablesDB = new TablesDB(client);
     client
@@ -18,6 +18,8 @@ export default async ({ req, res }) => {
       APPWRITE_DATABASE_ID,
       APPWRITE_TABLE
     );
-    return res.send(response.documents);
+    console.log(response);
+    return res.send(response);
   }
+  console.log("function is working");
 };
