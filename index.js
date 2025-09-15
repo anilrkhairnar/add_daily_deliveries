@@ -36,10 +36,10 @@ export default async ({ req, res, log, error }) => {
       });
     } else if (req.method == 'POST') {
 
-      const delivery = await tablesDb.deleteRows(
+      const delivery = await tablesDb.createRows(
         APPWRITE_DATABASE_ID,
         APPWRITE_TABLE_ID,
-        []
+        deliveries
       );
 
       log('data added', delivery);
